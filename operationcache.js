@@ -10,7 +10,7 @@
  */
 
 const axios = require("axios");
-require("nativescript-localstorage"); //Gives localStorage option for iOs/Android. Easy file operations, stored in a .db file in app data. Alternatively, an sqLite package for Nativescript can be used.
+//require("nativescript-localstorage"); //Gives localStorage option for iOs/Android. Easy file operations, stored in a .db file in app data. Alternatively, an sqLite package for Nativescript can be used.
 
 var operations = [];
 const STORAGE_KEY = "cache";
